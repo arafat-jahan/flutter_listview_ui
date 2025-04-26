@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  // ⭐ এখানে ভুল ঠিক করা হয়েছে
+
   static Widget studentCard(String name, int age, String image, String description) {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
@@ -93,7 +93,7 @@ class MyApp extends StatelessWidget {
         ),
         trailing: ElevatedButton(
           onPressed: () {
-            // Future কাজ এখানে করতে পারো
+
           },
           style: ElevatedButton.styleFrom(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
